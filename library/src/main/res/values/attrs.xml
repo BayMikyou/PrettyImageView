@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PrettyImageView">
+        <attr name="shape_type">
+            <enum name="SHAPE_CIRCLE" value="0"></enum>
+            <enum name="SHAPE_ROUND" value="1"></enum>
+        </attr>
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="left_top_radiusX" format="dimension"/>
+        <attr name="left_top_radiusY" format="dimension"/>
+        <attr name="right_top_radiusX" format="dimension"/>
+        <attr name="right_top_radiusY" format="dimension"/>
+        <attr name="right_bottom_radiusX" format="dimension"/>
+        <attr name="right_bottom_radiusY" format="dimension"/>
+        <attr name="left_bottom_radiusX" format="dimension"/>
+        <attr name="left_bottom_radiusY" format="dimension"/>
+        <attr name="show_border" format="boolean"/>
+        <attr name="show_circle_dot" format="boolean"/>
+        <attr name="circle_dot_color" format="color"/>
+        <attr name="circle_dot_radius" format="dimension"/>
+    </declare-styleable>
+</resources>
