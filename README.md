@@ -1,0 +1,2 @@
+# PrettyImageView
+一个Kotlin实现的简单小巧支持圆形和圆角定制化的ImageView
